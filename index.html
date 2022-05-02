@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Personal Details Page</title>
+    <link rel='stylesheet' href='style.css' type='text/css' />      
+    <script src="index.js">
+
+    </script>
+
+</head>
+    <body>
+        <div class="details">
+            <h2 style="text-align: center;">Personal Details Page</h2>
+       
+        <form name="form1"   action="Thankyou.html" method="get">
+            <ul>
+                <li> Full Name : <br/>
+                 <input type="text3" name="Name" placeholder="Enter your valid First & Last Name" required/> </li>
+                <li> <span id="fullname"></span></li>
+                <li>&nbsp;</li>
+        
+                <li> Email Id: <br/>
+                <input type="text3" name="email" placeholder="Enter your valid Email-Id" required/></li>
+                <li><span id="Email"></span></li>
+                <li>&nbsp;</li>
+
+                <li><label for="telNo"> Mobile Number :</label> </li>
+                <li>   <input type="text3" id="telNo" placeholder="Enter your valid Mobile number here" name="phone"  onkeypress="check()"
+                     onkeyup="phonestate()" pattern="\d{10}" required /></li>
+
+                <li>  <span id="Phone"></span>
+        <span id="mylocation1"> </span><span id="mylocation"> </span></li>
+        <form id="otpform" >
+            <input type="text" id="otpname" name="otpname" hidden /> </form>
+
+           
+            
+  <li><div class="submit">
+    <input type="button" value="submit" onclick="validation()"/>
+    
+    </div>
+
+    </form>
+    </body>
+</html>
