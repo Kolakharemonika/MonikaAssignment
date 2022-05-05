@@ -67,21 +67,38 @@ li {list-style-type: none;
         padding-top: 0px;
         padding-bottom: 20px;
      
-    }   
+    }  
     
-
     input[type=text6]  {
-    font-size: 13pt;
-    padding-left: 20px;
-    width: 30%;
+        font-size: 13pt;
+        
+        width: 40%;
+        } 
+    
+    input[type=number]  {
+        font-size: 13pt;
+        
+        width: 40%;
+        }
+
+    
+    
+    label#mylocation{
+        padding-left: 5%;
     }
-    input[type=text3]  {
+    input[type=email] {
         font-size: 13pt;
         width: 80%;
         }
+        input[type=text3]{
+            font-size: 13pt;
+            width: 80%;
+           
+            }
     input:focus, textarea:focus{
     background-color: 
-    lightyellow;
+    rgb(245, 245, 200);
+    border: blue;
     }
     input[type=text2] {
         font-size: 13pt;
